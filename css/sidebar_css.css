@@ -1,1 +1,27 @@
-#MenuBar{width:20vh;height:80vh;border:5px;background-color: black}
+#Content{
+    position: relative;
+    width: 85%;
+    height: 100%;
+    margin: 10px auto;
+    left: 7%;
+    background: #cdc;
+}
+#Mbar_div{
+    position: absolute;
+    left: -150px;
+    top: 0;
+}
+
+#MenuBar{
+
+    position: fixed;
+    top: 7px;
+    width: 20vh;
+    height: 98vh;
+    background: #c11;
+    left: 1%;
+}
+
+
+
+.web_page {width: 80vh; height: 100vh;}
