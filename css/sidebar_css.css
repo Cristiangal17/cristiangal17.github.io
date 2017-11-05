@@ -8,7 +8,7 @@
 }
 #Mbar_div{
     position: absolute;
-    left: -150px;
+    left: -15%;
     top: 0;
 }
 
@@ -24,4 +24,4 @@
 
 
 
-.web_page {width: 80vh; height: 100vh;}
+.web_page {width: 80%; height: 100vh;}
