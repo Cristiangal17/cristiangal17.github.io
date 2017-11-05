@@ -1,6 +1,6 @@
 #ContentTable, #LayoutRow{
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 #MenuColumn{
@@ -11,5 +11,5 @@
 
 #ContentColumn{
     height: 100vh;
-    width: 70vh;
+    width: 100vw;
 }

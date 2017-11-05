@@ -8,8 +8,6 @@
 
     <link rel="import" href="html/imports.html">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body>
 <table id="ContentTable">
@@ -35,10 +33,14 @@
         <th id="ContentColumn">
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-about-me" role="tabpanel" aria-labelledby="v-about-me-tab">
-                    <object type="text/html" data="html/page1_AboutMe.html"></object>
+                    <object class="tab-cont" type="text/html" data="html/page1_AboutMe.html"></object>
                 </div>
-                <div class="tab-pane fade" id="v-projects" role="tabpanel" aria-labelledby="v-projects-tab">asd</div>
-                <div class="tab-pane fade" id="v-contact-me" role="tabpanel" aria-labelledby="v-contact-me-tab">adf </div>
+                <div class="tab-pane fade" id="v-projects" role="tabpanel" aria-labelledby="v-projects-tab">
+                    <object class="tab-cont" type="text/html" data="html/page2_Projects.html"></object>
+                </div>
+                <div class="tab-pane fade" id="v-contact-me" role="tabpanel" aria-labelledby="v-contact-me-tab">
+                    <object class="tab-cont" type="text/html" data="html/page3_ContactMe.html"></object>
+                </div>
             </div>
         </th>
     </tr>
@@ -46,11 +48,8 @@
 
 
 
-
-<!-- Optional JavaScript -->
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 </body>
 </html>
