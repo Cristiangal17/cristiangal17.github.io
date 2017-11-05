@@ -1,20 +1,5 @@
-#Content{
-    position: relative;
-    width: 85%;
-    height: 100%;
-    margin: 10px auto;
-    left: 7%;
-    background: #cdc;
-}
-#Mbar_div{
-    position: absolute;
-    left: -15%;
-    top: 0;
-}
 
 #MenuBar{
-
-    position: fixed;
     top: 7px;
     width: 20vh;
     height: 98vh;
