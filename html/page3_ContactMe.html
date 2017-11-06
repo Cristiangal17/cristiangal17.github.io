@@ -1,22 +1,50 @@
 <link rel="import" href="../html/imports.html">
 
 <div id="item3">
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+    <h1>
+        Contact Me
+    </h1>
+    <p>
+        If anyone wants to message me I would be glad to contact them.
+        <ul id="ContactEmail">Email: cgalindo58@gmail.com</ul>
+        <ul id="ContactPhone">Phone Number: (949) 682-5930</ul>
+    </p>
+
+
+    <h3 id="QuickFormHeader">Quick Contact</h3>
+    <form id="QuickForm">
+        <div class="form-row">
+            <div class="form-group col-sm-6">
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="form-group col-sm-6">
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+                <!-- <label for="inputCity">City</label>-->
+                <input type="text" class="form-control" id="inputCity" placeholder="Phone Number">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputState">Reason For Contact</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>Hang Out</option>
+                    <option>Interested In Resume</option>
+                    <option>Interested In Projects</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="ReasonForContactTextArea">Explain</label>
+                <textarea class="form-control" id="ReasonForContactTextArea"></textarea>
+            </div>
+
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-check">
-            <label class="form-check-label">
-                <input type="checkbox" class="form-check-input">
-                Check me out
-            </label>
-        </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
