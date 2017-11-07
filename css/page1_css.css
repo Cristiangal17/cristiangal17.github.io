@@ -3,6 +3,17 @@
     height: 50%;
 }
 #item1{
-    width:100vw;
+    width:70vw;
     margin:5vw;
+}
+.carousel-caption{
+    top:13em;
+}
+.carousel-caption h5, .carousel-caption p{
+    color: red;
+}
+
+
+#PageHeader h1, #PageHeader h4{
+    text-align: center;
 }
