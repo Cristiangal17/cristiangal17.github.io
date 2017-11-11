@@ -6,10 +6,12 @@
 #MenuColumn{
     height: 100vh;
     width: 35vw;
+    -webkit-logical-width: 35%;
 
 }
 
 #ContentColumn{
     height: 100vh;
-    width: 40vw;
+    width: 60vw;
+    -webkit-logical-width: 10em;
 }
