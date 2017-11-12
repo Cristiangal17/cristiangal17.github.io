@@ -10,5 +10,7 @@ $(document).ready(function(){
         var reason = $('#ReasonForContactTextArea').val();
         alert(first_name + " - " + last_name  + " - " + email  + " - " + phone
             + " - " + option + " - " + reason);
+
+
     });
 });
