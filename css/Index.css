@@ -39,16 +39,91 @@
 
 }
 
-#ImageDiv{
-    text-align: center;
-}
-
-
 
 #TabDeclarations{
     width: 100%;
     height: 80vh;
     align-items: center;
     padding-top: 8em;
+
+}
+
+
+@media screen and  (max-width: 959px){
+    #ContentTable, #LayoutRow{
+        height: 100%;
+        width: 100%;
+        border: 1px solid green;
+    }
+}
+
+@media screen and  (max-width: 640px){
+    #ContentTable, #LayoutRow{
+        height: 100%;
+        width: 100%;
+        border: 1px solid green;
+    }
+}
+
+@media screen and  (max-width: 320px){
+    #ContentTable, #LayoutRow{
+        height: 100vh;
+        width: 320px;
+        border: 1px solid green;
+    }
+
+    #MenuColumn{
+        height: 100%;
+        width: 8%;
+        -webkit-logical-width: 8%;
+    }
+    #MenuDiv{
+        width: 100%;
+        height: 100%;
+        -webkit-logical-width: 100%;
+        text-align: center;
+    }
+
+    #ContentColumn{
+        height: 100%;
+        width: 92%;
+        max-width: 90%;
+        max-height: 100%;
+        -webkit-logical-width: 92%;
+    }
+
+
+    .tab-cont, .tab-content, .tab-pane{
+        width:100%;
+        height: 100%;
+        border: 1px solid orange;
+    }
+
+    .tab-cont{
+        padding-left: 1em;
+    }
+
+    #MeImage{
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #TabDeclarations{
+        width: 100%;
+        height: 80%;
+        align-items: center;
+        padding-top: 3em;
+        padding-bottom: 2em;
+
+    }
+
+    #TabDeclarations .nav .nav-link{
+        width: 100%;
+        font-size: 50%;
+    }
+
+
+
 
 }
