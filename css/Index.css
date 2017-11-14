@@ -33,7 +33,8 @@
 .tab-cont, .tab-content, .tab-pane{
     width:100%;
     height: 100%;
-    border: 1px solid orange;
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
 }
 
 .tab-cont{
@@ -107,7 +108,8 @@
     .tab-cont, .tab-content, .tab-pane{
         width:100%;
         height: 100%;
-        border: 1px solid orange;
+        border-left: 1px solid orange;
+        border-right: 1px solid orange;
     }
 
     .tab-cont{
