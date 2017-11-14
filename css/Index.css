@@ -1,7 +1,10 @@
 #ContentTable, #LayoutRow{
     height: 100vh;
     width: 90vw;
-    border: 1px solid green;
+    border-bottom: 4px solid orange;
+    border-left: 4px solid orange;
+    border-top: 4px solid orange;
+
 }
 
 #MenuColumn{
@@ -21,6 +24,9 @@
     max-width: 100%;
     max-height: 100%;
     -webkit-logical-width: 10em;
+    line-height: 0px;
+    margin:0;
+    padding:0;
 }
 
 
@@ -53,7 +59,7 @@
     #ContentTable, #LayoutRow{
         height: 100%;
         width: 100%;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
     }
 }
 
@@ -61,7 +67,7 @@
     #ContentTable, #LayoutRow{
         height: 100%;
         width: 100%;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
     }
 
     #TabDeclarations .nav .nav-link{
@@ -74,7 +80,7 @@
     #ContentTable, #LayoutRow{
         height: 100vh;
         width: 320px;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
     }
 
     #MenuColumn{
