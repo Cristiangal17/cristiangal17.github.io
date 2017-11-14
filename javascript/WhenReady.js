@@ -9,18 +9,24 @@ function sendEmail(){
     alert(first_name + " - " + last_name  + " - " + email  + " - " + phone
         + " - " + option + " - " + reason);
 
-    $.ajax({
-        url: "https://formspree.io/crs_galindo213@yahoo.com",
-        method: "POST",
-        data: {message: "hello!"},
-        dataType: "json"
-    });
+    // $.ajax({
+    //     url: "https://formspree.io/crs_galindo213@yahoo.com",
+    //     method: "POST",
+    //     data: {message: "hello!"},
+    //     dataType: "json"
+    // });
+    //
+    // $.ajax({
+    //     url: "https://formspree.io/" + email,
+    //     method: "POST",
+    //     data: {message: "hello!"},
+    //     dataType: "json"
+    // });
 
-    $.ajax({
-        url: "https://formspree.io/" + email,
-        method: "POST",
-        data: {message: "hello!"},
-        dataType: "json"
-    });
-
+    var promise = $.getJSON("../cgi/SendEmail.php");
+    alert("Here")
+    promise.done(function(data) {
+        console.log(data);
+        // this will return back "text that needs to be in javascript"
+    })
 };
