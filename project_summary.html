@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Cristian's Profile</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="My Personal Portfolio">
+    <!-- <meta name="keywords" content="HTML,CSS,XML,JavaScript"> -->
+    <meta name="author" content="Cristian Galindo">
+    <!-- <link rel="import" href="imports/imports.html"> -->
+    <div id="imports">
+        <link rel="stylesheet" href="css/Index.css">
+        <link rel="stylesheet" href="css/sidebar_css.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    </div>
+
+</head>
+<body>
+<table id="ContentTable">
+    <tr id="LayoutRow">
+        <th id="MenuColumn">
+            <div id="MenuDiv">
+                <div id="ImageDiv">
+                    <picture>
+                        <source srcset="Images/AboutMe/MeGreenStreet.jpg">
+                        <img id="MeImage" src="Images/AboutMe/MeGreenStreet.jpg" alt="MDN">
+                    </picture>
+                </div>
+                <div id="TabDeclarations">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-about-me-tab" data-toggle="pill" href="#v-about-me" role="tab" aria-controls="v-about-me" aria-selected="true">About Me</a>
+                        <a class="nav-link" id="v-projects-tab" data-toggle="pill" href="#v-projects" role="tab" aria-controls="v-projects" aria-selected="false">Projects</a>
+                        <a class="nav-link" id="v-contact-me-tab" data-toggle="pill" href="#v-contact-me" role="tab" aria-controls="v-contact-me" aria-selected="false">Contact Me</a>
+                    </div>
+                </div>
+
+            </div>
+        </th>
+        <th id="ContentColumn">
+
+
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-about-me" role="tabpanel" aria-labelledby="v-about-me-tab">
+                    <object class="tab-cont" type="text/html" data="html/page1_AboutMe.html"></object>
+                </div>
+
+                <div class="tab-pane fade" id="v-projects" role="tabpanel" aria-labelledby="v-projects-tab">
+                    <object class="tab-cont" type="text/html" data="html/page2_Projects.html"></object>
+                </div>
+
+                <div class="tab-pane fade" id="v-contact-me" role="tabpanel" aria-labelledby="v-contact-me-tab">
+                    <object class="tab-cont" type="text/html" data="html/page3_ContactMe.html"></object>
+                </div>
+                <!-- -->
+            </div>
+
+
+        </th>
+    </tr>
+</table>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+
+<!--
+Sources Used:
+https://www.html5rocks.com/en/tutorials/webcomponents/imports/
+https://getbootstrap.com/docs/4.0/components/navs/#tabs
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+http://getbootstrap.com/docs/4.0/components/forms/
+-->
+</body>
+</html>
