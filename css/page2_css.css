@@ -80,9 +80,18 @@
     display: inline-block;
 }
 
+#krus_img,#gsa_img,#vector_img, #doord_img{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
 
-
-
+.work_cont {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3%;
+}
 
 
 @media screen and  (max-width: 959px){
