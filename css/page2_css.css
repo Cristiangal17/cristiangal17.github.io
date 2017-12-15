@@ -62,9 +62,26 @@
     max-width: 100%;
     max-height:100%;
     display:inline-block;
+    vertical-align:middle;
 
 
 }
+
+
+#CodingLanguagesContent{
+    width: 100%;
+}
+.card{
+    width: 20%;
+    display: inline-block !important;
+}
+
+.work_cont{
+    display: inline-block;
+}
+
+
+
 
 
 

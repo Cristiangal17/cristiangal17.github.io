@@ -11,7 +11,7 @@
     <!-- <link rel="import" href="imports/imports.html"> -->
     <div id="imports">
         <link rel="stylesheet" href="css/Index.css">
-        <link rel="stylesheet" href="css/sidebar_css.css">
+        <link rel="stylesheet" href="css/Special.css">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -19,8 +19,132 @@
 
 </head>
 <body>
+<table id="ContentTable">
+    <tr id="LayoutRow">
+        <th id="MenuColumn">
+            <div id="MenuDiv">
+                <div id="ImageDiv">
+                    <picture>
+                        <source srcset="Images/AboutMe/MeGreenStreet.jpg">
+                        <img id="MeImage" src="Images/AboutMe/MeGreenStreet.jpg" alt="MDN">
+                    </picture>
+                </div>
+                <div id="TabDeclarations">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-about-me-tab" data-toggle="pill" href="#v-about-me" role="tab" aria-controls="v-about-me" aria-selected="true">About Me</a>
+                        <a class="nav-link" id="v-projects-tab" data-toggle="pill" href="#v-projects" role="tab" aria-controls="v-projects" aria-selected="false">Experience</a>
+                        <a class="nav-link" id="v-contact-me-tab" data-toggle="pill" href="#v-contact-me" role="tab" aria-controls="v-contact-me" aria-selected="false">Contact Me</a>
+                    </div>
+                </div>
+
+            </div>
+        </th>
+        <th id="ContentColumn" style="display: none">
+
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-about-me" role="tabpanel" aria-labelledby="v-about-me-tab">
+                    <object class="tab-cont" type="text/html" data="html/page1_AboutMe.html"></object>
+                </div>
+
+                <div class="tab-pane fade" id="v-projects" role="tabpanel" aria-labelledby="v-projects-tab">
+                    <object class="tab-cont" type="text/html" data="html/page2_Projects.html"></object>
+                </div>
+
+                <div class="tab-pane fade" id="v-contact-me" role="tabpanel" aria-labelledby="v-contact-me-tab">
+                    <object class="tab-cont" type="text/html" data="html/page3_ContactMe.html"></object>
+                </div>
+                <!-- -->
+            </div>
+        </th>
+        <th id="SummaryContentCol">
+
+            <div id="SummaryContent">
+                <h2> User Research </h2>
+                <div class="item_container">
+                    <img class="S_Images" src="Images/SummaryImages/rsz_user_interviews.jpg">
+                    <div class="s_content">
+                        <h4> User Interviews </h4>
+                        <p>With the questions that I asked I wanted to achieve a few things. The first thing was to understand what type of textual content I should have in my profile. I wanted the questions to help me get ideas about what I should put in the descriptions I had. I also wanted to see if the people had any ideas on features that would be good to have in a digital portfolio.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="item_container">
+                    <img class="S_Images"  src="Images/SummaryImages/rsz_competitor_analysis.jpg">
+                    <div class="s_content">
+                        <h4>Competitor Analysis </h4>
+                        <p>In this section I wanted to compare my own profile to one that could be done in a different website or portal. I wanted to see what kind of information they asked for so that I could get ideas about what I should put in my website. I looked at the features that the websites had and I tried to add replicate something similar.  </p>
+                    </div>
+                </div>
+
+                <div class="item_container">
+                    <img class="S_Images" src="Images/SummaryImages/rsz_feature_value_matrix.jpg">
+                    <div class="s_content">
+                        <h4>Feature Value Matrix </h4>
+                        <p>Ranking the features that I wanted was very useful. This matrix made it really clear to me what features I should worry about and which ones I should not care for, for this project. There were features that would take way too much time to do for the class so I tried to focus a bit more on content rather than features.  </p>
+                    </div>
+
+                </div>
+
+                <div class="item_container">
+                    <img class="S_Images" src="Images/SummaryImages/rsz_feature_prioritization.jpg">
+                    <div class="s_content">
+                        <h4>Feature Prioritization </h4>
+                        <p>These were just visuals from the feature value matrix. They helped me visualize what features I should and shouldn’t do for the website. It removed the numbers that I had gotten from the matrix making it less overwhelming on deciding which features to finalize.
+                        </p>
+                    </div>
+                </div>
 
 
+                <h2> User Testing</h2>
+
+                <div class="item_container">
+                    <img class="S_Images" src="Images/SummaryImages/rsz_user_stories.jpg">
+                    <div class="s_content">
+                        <h4>User Stories </h4>
+                        <p>The user stories helped me create people that might possibly want to see my website. In this section I tried to think about what different types of people might want to see. If a recruiter was having the attitude of multiple of my user stories, they would be satisfied with the information that they have received by the end of it.  </p>
+                    </div>
+
+                </div>
+
+                <div class="item_container">
+                    <img class="S_Images" src="Images/SummaryImages/rsz_cognitive_walkthrough.jpg">
+                    <div class="s_content">
+                        <h4>Cognitive Walkthrough: </h4>
+                        <p>This was a walkthroughs that I did with other people of my site. This allowed me to see how people interacted with my website. I was able to ask the people questions about my website on the spot. If I was curious about an interaction then I was able to bring it up at the time that it happened. </p>
+                    </div>
+                </div>
+
+
+                <div class="item_container">
+                    <img class="S_Images" src="Images/SummaryImages/">
+                    <div class="s_content">
+                        <h4>User Testing </h4>
+                        <p>These user tests allowed me to get a more quantitative view to the cognitive walkthrough. It allowed me to get raw data about what the user was clicking and why they were doing it. It was quick and easy so I was able to send it out to more people than doing a cognitive walkthrough with each of them.  </p>
+                    </div>
+                </div>
+
+
+                <h2>Summary of Findings</h2>
+                <p>
+                    I saw that I didn’t really have things related to my career in the website. I needed to add the types of languages I was familiar with so that recruiters could see what I am able to do. I also realized that I needed to add my past work experiences so that recruiters could know what I have done. Finally I realized that I should show my projects outside of school. This would allow recruiters to see that I am not just a robot that works all the time.
+
+                    It was interesting how I got these recommendations. They came out of the cognitive walkthrough and not in the user testing. I had to ask the user for specific advise so that they could tell me. I will say that there was one person that explicitly told me that I should add more major related things without me asking. All the steps that I took to find out what was missing helped me figure it out as soon as possible.
+
+                </p>
+                <h2> Incorporation of Findings</h2>
+                <p>The first thing that I did was change the menu name from project to experience. Since I added more information there about me and major related things, that is no longer a projects only page. In this page I included coding languages that I had practiced throughout my school career. In that page I also included where I have worked at. This will allow the user to have a visual of the types of places I have worked at.
+
+                    In the future I hope to be able to link work to the coding languages that I have listed. It would be cool if the user was able to download one of my coding assignment in that language. It would allow the user to see my skills. I would also like to link the images of the places I have worked at to their websites. This would allow people to get a better sense of where I worked.
+                </p>
+            </div>
+
+        </th>
+
+    </tr>
+</table>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
